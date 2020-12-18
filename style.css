@@ -1,4 +1,8 @@
-.title{
+
+body {
+  overflow: hidden; 
+}
+  .title{
     background-color: black;
     color: white;
     text-align: center;
@@ -6,35 +10,36 @@
   .col-md-4{
     height: 300px;
   }
-  
-  <!--margin css property of div-->
-  .row{
-    margin:20px;
-  }
-   .btn:hover{
+
+<!--margin css property of div-->
+.row{
+margin:20px;
+}
+ .btn:hover{
     background-color: black;
   }
-  
-  <!--animation css property-->
-  .div-anim1 {
-    --animate-duration: 1.2s;
+
+<!--animation css property-->
+.div-anim1 {
+--animate-duration: 1.2s;
 }
 
- .div-anim2 {
-    --animate-duration: 0.8s;
+.div-anim2 {
+--animate-duration: 0.8s;
 }
 
- .div-anim3 {
-    --animate-duration: 0.5s;
+.div-anim3 {
+--animate-duration: 0.5s;
 }
 
 .div-anim4{
-    --animate-duration :0.5s;
+--animate-duration :0.5s;
 }
 
 .div-anim5{
-    --animate-duration : 0.8s;
+--animate-duration : 0.8s;
 }
 .div-anim6{
-    --animate-duration : 1.2s;
+--animate-duration : 1.2s;
 }
+</style>
