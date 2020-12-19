@@ -1,14 +1,15 @@
 
 body {
-  overflow: hidden; 
+  overflow-x: hidden; 
 }
   .title{
     background-color: black;
     color: white;
     text-align: center;
+    padding: 10px;
   }
   .col-md-4{
-    height: 350px;
+    height: 50vh;
   }
 
 <!--margin css property of div-->
